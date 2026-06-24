@@ -26,7 +26,7 @@
 
 **754 compétences cybersécurité de niveau production · 26 domaines de sécurité · 5 correspondances de frameworks · 26+ plateformes IA**
 
-[Démarrage rapide](#Démarrage-rapide) · [Contenu](#whats-inside--29-security-domains) · [Frameworks](#five-frameworks-one-skill-library) · [Plateformes](#compatible-platforms) · [Contribuer](#contributing)
+[Démarrage rapide](#Démarrage-rapide) · [Contenu](#Ce-qu-il-contient—-26-domaines-de-sécurité) · [Frameworks](#five-frameworks-one-skill-library) · [Plateformes](#compatible-platforms) · [Contribuer](#contributing)
 
 </div>
 
