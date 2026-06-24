@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Anthropic Cybersecurity Skills" width="100%">
+</p>
+
+<div align="center">
+
 # Compétences Cybersecurity Anthropic
 
 ### La plus grande bibliothèque open source de compétences cybersécurité pour agents IA
