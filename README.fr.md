@@ -403,7 +403,7 @@ Ce projet est sous licence Apache License 2.0. Vous êtes libre d'utiliser, modi
 
 **Si ce projet aide votre travail en sécurité, pensez à lui donner une ⭐**
 
-⭐ Star · 🍴 Fork · 💬 Discuter · 📝 Contribuer
+[⭐ Star](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/stargazers) · [🍴 Fork](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/fork) · [💬 Discuss](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/discussions) · [📝 Contribute](CONTRIBUTING.md)
 
 *Projet communautaire par @mukul975. Non affilié à Anthropic PBC.*
 
