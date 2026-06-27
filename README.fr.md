@@ -1,3 +1,14 @@
+Voici le fichier `README.fr.md` **complet, corrigé et final**, prêt à être collé dans ton dépôt. Il intègre :
+- ✅ Les 5 corrections demandées par le mainteneur
+- ✅ Les 7 sections manquantes (plateformes, témoignages, mentions, star history, releases, contributing, communauté, citation, licence, footer)
+- ✅ Le tableau complet des **29 domaines** avec les chiffres à jour
+- ✅ Le paragraphe Colorado AI Act complet
+- ✅ Les deux avertissements (communautaire + légal)
+- ✅ Les ancres internes corrigées
+
+---
+
+```markdown
 <p align="center">
   <img src="assets/banner.png" alt="Anthropic Cybersecurity Skills" width="100%">
 </p>
@@ -31,6 +42,8 @@
 ---
 
 > ⚠️ **Projet communautaire** — Il s'agit d'un projet indépendant créé par la communauté. Non affilié à Anthropic PBC.
+>
+> 🔐 **Usage autorisé et légal uniquement.** Cette bibliothèque inclut des techniques offensives et à double usage (ex. C2 red-team, simulation de phishing, exploitation) destinées à des **tests d'intrusion autorisés, à la recherche en sécurité, à la défense et à l'éducation**. Ne les utilisez que sur des systèmes que vous possédez ou pour lesquels vous avez une **autorisation écrite explicite** de tester, et respectez toutes les lois applicables ainsi que les règles d'engagement. Vous êtes seul responsable de la façon dont vous utilisez ces compétences. Voir SECURITY.md et CODE_OF_CONDUCT.md.
 
 ## Donnez à n'importe quel agent IA les compétences de sécurité d'un analyste senior
 
@@ -145,32 +158,35 @@ Les dépôts d'outils de sécurité existants fournissent des wordlists, des pay
 
 |Domaine|Compétences|Capacités clés|
 |--|--|--|
-|Cloud Security|60|AWS, Azure, GCP hardening · CSPM · forensics cloud|
-|Threat Hunting|55|Chasse guidée par hypothèses · détection LOTL · analytics comportementales|
-|Threat Intelligence|50|STIX/TAXII · MISP · intégration de flux · profilage d'acteurs|
+|Cloud Security|66|AWS, Azure, GCP hardening · CSPM · émulation d'attaques cloud · forensics cloud|
+|Threat Hunting|58|Chasse guidée par hypothèses · détection LOTL · chasse EVTX · chasse à l'échelle du parc|
+|Threat Intelligence|52|STIX/TAXII · MISP · OpenCTI · intégration de flux · profilage d'acteurs|
+|Network Security|43|IDS/IPS · règles de pare-feu · segmentation VLAN · analyse du trafic|
 |Web Application Security|42|OWASP Top 10 · SQLi · XSS · SSRF · désérialisation|
-|Network Security|40|IDS/IPS · règles de pare-feu · segmentation VLAN · analyse du trafic|
+|Digital Forensics|41|Imagerie disque · forensique mémoire · chronologies Hayabusa/KAPE/Plaso|
 |Malware Analysis|39|Analyse statique/dynamique · rétro-ingénierie · sandboxing|
-|Digital Forensics|37|Imagerie disque · forensique mémoire · reconstruction chronologique|
-|Security Operations|36|Corrélation SIEM · analyse de logs · triage d'alertes|
-|Identity & Access Management|35|Politiques IAM · PAM · identité zero trust · Okta · SailPoint|
-|SOC Operations|33|Playbooks · workflows d'escalade · métriques · exercices tabletop|
-|Container Security|30|RBAC Kubernetes · scan d'images · Falco · forensics de conteneurs|
+|Identity & Access Management|37|Entra ID/ROADtools · phishing par code d'appareil · PAM · identité zero trust|
+|SOC Operations|35|Playbooks · workflows d'escalade · détection Graph-log · exercices tabletop|
+|Red Teaming|33|ADCS/Certipy · BloodHound CE · C2 Sliver/Havoc · relais NTLM|
+|Container Security|33|RBAC Kubernetes · scan d'images · Falco · évasion de conteneurs|
+|Security Operations|28|Corrélation SIEM · analyse de logs · triage d'alertes|
 |OT/ICS Security|28|Modbus · DNP3 · IEC 62443 · défense des historian · SCADA|
 |API Security|28|GraphQL · REST · OWASP API Top 10 · contournement WAF|
+|Incident Response|26|Confinement de compromission · réponse ransomware · playbooks IR|
 |Vulnerability Management|25|Nessus · workflows de scan · priorisation des patchs · CVSS|
-|Incident Response|25|Confinement de compromission · réponse ransomware · playbooks IR|
-|Red Teaming|24|Engagements full-scope · attaques AD · simulation de phishing|
-|Penetration Testing|23|Pentest réseau · web · cloud · mobile · wireless|
+|Penetration Testing|21|Réseau · web · cloud · mobile · mouvement latéral NetExec|
+|DevSecOps|18|Sécurité CI/CD · scan Trivy IaC/images · signature de code|
+|Zero Trust Architecture|17|BeyondCorp · modèle de maturité CISA · microsegmentation|
 |Endpoint Security|17|EDR · détection LOTL · malware fileless · chasse à la persistance|
-|DevSecOps|17|Sécurité CI/CD · signature de code · audit Terraform|
-|Phishing Defense|16|Authentification email · détection BEC · IR phishing|
-|Cryptography|14|TLS · Ed25519 · certificate transparency · gestion des clés|
-|Zero Trust Architecture|13|BeyondCorp · modèle de maturité CISA · microsegmentation|
-|Mobile Security|12|Analyse Android/iOS · pentest mobile · forensics MDM|
-|Ransomware Defense|7|Détection précurseur · réponse · récupération · analyse du chiffrement|
-|Compliance & Governance|5|CIS benchmarks · SOC 2 · cadres réglementaires|
-|Deception Technology|2|Honeytokens · canaris de détection de compromission|
+|Cryptography|16|TLS · Ed25519 · migration post-quantique · gestion des clés|
+|Phishing Defense|15|Authentification email · détection BEC · IR phishing|
+|AI Security|14|Red-teaming LLM (garak/PyRIT) · injection de prompt · sécurité MCP/agentique · garde-fous|
+|Mobile Security|13|Analyse Android/iOS · pentest mobile · forensics MDM|
+|Ransomware Defense|13|Détection précurseur · réponse · récupération · analyse du chiffrement|
+|Compliance & Governance|9|NIST 800-30/RMF · CMMC · HIPAA · TPRM · CIS benchmarks|
+|Supply Chain Security|8|SBOMs · confusion de dépendances · triage de paquets malveillants · SLSA/Sigstore|
+|Deception Technology|6|Honeytokens · canarytokens · détection de compromission|
+|Hardware & Firmware Security|4|Audit CHIPSEC/UEFI · contournement Secure Boot · attestation TPM · chasse aux bootkits|
 
 ## Comment les agents IA utilisent ces compétences
 
@@ -218,7 +234,7 @@ skills/performing-memory-forensics-with-volatility3/
 ### Frontmatter YAML (exemple réel)
 
 ```yaml
-***
+---
 name: performing-memory-forensics-with-volatility3
 description: >-
   Analyser des dumps mémoire pour extraire les processus en cours,
@@ -234,7 +250,7 @@ nist_csf: [DE.CM-01, RS.AN-03]
 version: "1.2"
 author: mukul975
 license: Apache-2.0
-***
+---
 ```
 
 ### Sections du corps Markdown
@@ -302,4 +318,104 @@ D3FEND est un graphe de connaissances financé par la NSA contenant **267 techni
 
 ### NIST AI RMF 1.0 + GenAI Profile (AI 600-1)
 
-Le cadre AI Risk Management Framework définit 4 fonctions centrales — Govern, Map, Measure, Manage — avec **72 sous-catégories** pour un développement IA digne de confiance. Le GenAI Profile (AI 600-1, juillet 2024) ajoute **12 catégories de risque** spécifiques à l'IA générative, de la confabulation et de la confidentialité des données à l'injection de prompt et aux risques de chaîne d'approvisionnement. Le Colorado AI A...
+Le cadre AI Risk Management Framework définit 4 fonctions centrales — Govern, Map, Measure, Manage — avec **72 sous-catégories** pour un développement IA digne de confiance. Le GenAI Profile (AI 600-1, juillet 2024) ajoute **12 catégories de risque** spécifiques à l'IA générative, de la confabulation et de la confidentialité des données à l'injection de prompt et aux risques de chaîne d'approvisionnement. Le Colorado AI Act (entré en vigueur en février 2026) offre un **safe harbor légal** aux organisations conformes au NIST AI RMF, rendant ces mappages directement pertinents pour la conformité réglementaire.
+
+## Plateformes compatibles
+
+**Assistants de code IA**
+Claude Code (Anthropic) · GitHub Copilot (Microsoft) · Cursor · Windsurf · Cline · Aider · Continue · Roo Code · Amazon Q Developer · Tabnine · Sourcegraph Cody · JetBrains AI
+
+**Agents CLI**
+OpenAI Codex CLI · Gemini CLI (Google)
+
+**Agents autonomes**
+Devin · Replit Agent · SWE-agent · OpenHands
+
+**Frameworks & SDKs d'agents**
+LangChain · CrewAI · AutoGen · Semantic Kernel · Haystack · Vercel AI SDK · Tout agent compatible MCP
+
+Toutes les plateformes supportant le standard agentskills.io peuvent charger ces compétences sans configuration.
+
+## Ce qu'ils en disent
+
+> _"Une base de données de vraies compétences de sécurité organisées que n'importe quel agent IA peut brancher et utiliser. Pas des tutoriels. Pas des articles de blog."_
+> — **Hasan Toor (@hasantoxr)**, créateur IA/tech
+
+> _"Ce n'est pas une collection aléatoire de scripts de sécurité. C'est une base de connaissances opérationnelle structurée conçue pour les workflows de sécurité pilotés par IA."_
+> — **fazal-sec**, Medium
+
+## Mentionné dans
+
+| Où | Type | Lien |
+|--|--|--|
+| **awesome-agent-skills** | Awesome List (index de 1000+ compétences) | VoltAgent/awesome-agent-skills |
+| **awesome-ai-security** | Awesome List (outils de sécurité IA) | ottosulin/awesome-ai-security |
+| **awesome-codex-cli** | Awesome List (ressources Codex CLI) | RoggeOhta/awesome-codex-cli |
+| **SkillsLLM** | Annuaire & marketplace de compétences | skillsllm.com/skill/anthropic-cybersecurity-skills |
+| **Openflows** | Analyse & suivi de signaux | openflows.org |
+| **NeverSight skills_feed** | Index automatisé des compétences | NeverSight/skills_feed |
+
+## Historique des étoiles
+
+![Star History Chart](https://api.star-history.com/svg?repos=mukul975/Anthropic-Cybersecurity-Skills&type=Date)
+
+## Releases
+
+| Version | Date | Points forts |
+|--|--|--|
+| v1.0.0 | 11 mars 2026 | 734 compétences · 26 domaines · Mappage MITRE ATT&CK + NIST CSF 2.0 · Couche ATT&CK Navigator |
+
+Les compétences continuent de croître sur `main` depuis la v1.0.0 — la bibliothèque contient désormais **817 compétences** avec un **mappage sur 6 frameworks** (MITRE ATLAS, D3FEND, NIST AI RMF, et le MITRE Fight Fraud Framework ajoutés après la release). Consultez les Releases pour la dernière version taguée.
+
+## Contribuer
+
+Ce projet évolue grâce aux contributions de la communauté. Voici comment participer :
+
+**Ajouter une nouvelle compétence** — Les domaines comme Deception Technology (6 compétences) et Hardware & Firmware Security (4 compétences) ont le plus besoin d'aide. Suivez le modèle dans CONTRIBUTING.md et soumettez une PR avec le titre `Add skill: nom-de-votre-competence`.
+
+**Améliorer les compétences existantes** — Ajoutez des mappages de frameworks, corrigez les workflows, mettez à jour les références d'outils, ou contribuez avec des scripts et modèles.
+
+**Signaler des problèmes** — Vous avez trouvé une procédure inexacte ou un script cassé ? Ouvrez une issue.
+
+Chaque PR est revue pour sa précision technique et sa conformité au standard agentskills.io dans les 48 heures. Consultez les *good first issues* pour commencer.
+
+Ce projet suit le Contributor Covenant. En participant, vous acceptez de respecter ce code.
+
+## Communauté
+
+💬 **Discussions** — Questions, idées et conversations sur la feuille de route
+🐛 **Issues** — Rapports de bugs et demandes de fonctionnalités
+🔒 **Politique de sécurité** — Processus de divulgation responsable (accusé de réception sous 48h)
+
+## Citation
+
+Si vous utilisez ce projet dans des recherches ou publications :
+
+```bibtex
+@software{anthropic_cybersecurity_skills,
+  author       = {Jangra, Mahipal},
+  title        = {Anthropic Cybersecurity Skills},
+  year         = {2026},
+  url          = {https://github.com/mukul975/Anthropic-Cybersecurity-Skills},
+  license      = {Apache-2.0},
+  note         = {817 compétences cybersécurité structurées pour agents IA,
+                  mappées à MITRE ATT\&CK, NIST CSF 2.0, MITRE ATLAS,
+                  MITRE D3FEND et NIST AI RMF}
+}
+```
+
+## Licence
+
+Ce projet est sous licence Apache License 2.0. Vous êtes libre d'utiliser, modifier et distribuer ces compétences dans des projets personnels comme commerciaux.
+
+---
+
+<div align="center">
+
+**Si ce projet aide votre travail en sécurité, pensez à lui donner une ⭐**
+
+⭐ Star · 🍴 Fork · 💬 Discuter · 📝 Contribuer
+
+*Projet communautaire par @mukul975. Non affilié à Anthropic PBC.*
+
+</div>
