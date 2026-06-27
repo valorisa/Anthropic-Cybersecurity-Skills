@@ -1,14 +1,3 @@
-Voici le fichier `README.fr.md` **complet, corrigé et final**, prêt à être collé dans ton dépôt. Il intègre :
-- ✅ Les 5 corrections demandées par le mainteneur
-- ✅ Les 7 sections manquantes (plateformes, témoignages, mentions, star history, releases, contributing, communauté, citation, licence, footer)
-- ✅ Le tableau complet des **29 domaines** avec les chiffres à jour
-- ✅ Le paragraphe Colorado AI Act complet
-- ✅ Les deux avertissements (communautaire + légal)
-- ✅ Les ancres internes corrigées
-
----
-
-```markdown
 <p align="center">
   <img src="assets/banner.png" alt="Anthropic Cybersecurity Skills" width="100%">
 </p>
